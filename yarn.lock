@@ -4744,6 +4744,11 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
+fetch-multiple@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/fetch-multiple/-/fetch-multiple-1.2.3.tgz#48cf045c1582396da02034be7dfa836bb5dae7b2"
+  integrity sha1-SM8EXBWCOW2gIDS+ffqDa7Xa57I=
+
 figgy-pudding@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
@@ -5274,6 +5279,13 @@ gatsby-source-filesystem@^2.1.33:
     read-chunk "^3.2.0"
     valid-url "^1.0.9"
     xstate "^4.6.7"
+
+gatsby-source-rest-api@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-rest-api/-/gatsby-source-rest-api-0.2.1.tgz#b92b7a4999bff1252afb220fa380221db8b373d1"
+  integrity sha512-SW6QjJD/ejzdXoQW/ZtDxxTtp4l/qz9QpWsyP2o/OLs4UBLmr/wBTL7A72uA6PweTJCxjMFToMKfN0goBDO8AA==
+  dependencies:
+    fetch-multiple "^1.2.3"
 
 gatsby-telemetry@^1.1.33:
   version "1.1.33"
@@ -7730,7 +7742,7 @@ minipass@^2.2.1, minipass@^2.3.4:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
 
-minipass@^2.6.0, minipass@^2.8.6, minipass@^2.9.0:
+minipass@^2.8.6, minipass@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-2.9.0.tgz#e713762e7d3e32fed803115cf93e04bca9fcc9a6"
   integrity sha512-wxfUjg9WebH+CUDX/CdbRlh5SmfZiy/hpkxaRI16Y9W56Pa75sWgd/rvFilSgrauD9NyFymP/+JFV3KwzIsJeg==
